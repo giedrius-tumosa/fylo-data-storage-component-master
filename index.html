@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="functionalities">
+        <img
+          class="functionalities__logo"
+          src="./images/logo.svg"
+          alt="Fylo company logo."
+          width="135"
+          height="40"
+        />
+        <button class="button document">
+          <img
+            src="./images/icon-document.svg"
+            alt="Document button image."
+            width="20"
+            height="24"
+          />
+        </button>
+        <button class="button">
+          <img
+            src="./images/icon-folder.svg"
+            alt="Folder button image."
+            width="24"
+            height="20"
+          />
+        </button>
+        <button class="button">
+          <img
+            src="./images/icon-upload.svg"
+            alt="Upload button image."
+            width="24"
+            height="16"
+          />
+        </button>
+      </section>
+      <section class="storage-usage">
+        <p class="storage-usage__info">
+          You’ve used <strong>815 GB </strong>of your storage
+        </p>
+        <div class="storage-usage__slider slider">
+          <div class="slider__row">
+            <div class="slider__inner-row">
+              <div class="circle"></div>
+            </div>
+          </div>
+          <div class="slider__data-range">
+            <span>0 gb</span><span>1000 gb</span>
+          </div>
+        </div>
+        <div class="storage-usage__amount-info">
+          <p class="used-amount">185</p>
+          <p class="gb-left-text">gb left</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Giedrius Tumosa</a>.
+    </div> -->
+  </body>
+</html>
+
+<!-- 185 GB Left 0 GB 1000 GB -->
